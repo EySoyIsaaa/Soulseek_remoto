@@ -27,7 +27,8 @@ sudo systemctl restart private-downloader.service
 - `http://10.0.0.45:8000`
 
 ## Endpoints
-- `GET /` -> frontend
+- `GET /` -> menú principal (Buscar canciones / Descargar canciones)
+- `GET /downloads` -> vista de listado/descarga de archivos
 - `GET /files` -> JSON de archivos (requiere Bearer token)
 - `GET /download/{path}?token=...` -> descarga forzada
 
